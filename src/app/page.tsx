@@ -1,10 +1,11 @@
 import Image from "next/image";
 
+import DashboardLayout from "./../../components/layout/DashboardLayout";
+
 export default function Home() {
   return (
-    <main className="p-10">
-      <h1 className="text-4xl font-bold mb-4">SubTrackr</h1>
-      <button className="btn btn-primary">Testknapp (DaisyUI)</button>
-    </main>
+    <DashboardLayout>
+      <div className="text-lg">👋 Välkommen till SubTrackr!</div>
+    </DashboardLayout>
   );
 }
